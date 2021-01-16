@@ -1,4 +1,4 @@
-# 这就是MCDI。
+# 这就是redstone-musician。
 一个用来一键生成红石音乐的Python库。
 
 ## 开始

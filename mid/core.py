@@ -402,13 +402,12 @@ class RealTimeGenerator(BaseCbGenerator):
 
 __all__ = ["InGameGenerator", "RealTimeGenerator"]
 
-
 if __name__ == '__main__':
     from mid.plugins import tweaks, piano, title
 
     logging.basicConfig(level=logging.INFO)
 
-    generator = RealTimeGenerator(fp=r"D:\音乐\Midi Files\LEVEL5 -judgelight-（管弦）.mid", plugins=[
+    generator = RealTimeGenerator(fp=r"D:\音乐\Midi Files\Without You（完美佳作）.mid", plugins=[
         tweaks.FixedTime(
             value=18000
         ),
@@ -419,31 +418,31 @@ if __name__ == '__main__':
             block_type="wool"
         ),
         piano.PianoRollFirework(),
-        # piano.PianoRollRenderer(
-        #     [
-        #         {
-        #             "funcs": [
-        #                 {
-        #                     "instance": piano.PowerFunctionPreset(),
-        #                     "dot_dist": .1,
-        #                 }
-        #             ],
-        #             "channels": [0],
-        #             "tracks": [],
-        #         }
-        #     ]
-        # ),
+        piano.PianoRollRenderer(
+            [
+                {
+                    "funcs": [
+                        {
+                            "instance": piano.PowerFunctionPreset(),
+                            "dot_dist": .1,
+                        }
+                    ],
+                    "channels": [5],
+                    "tracks": [],
+                }
+            ]
+        ),
         tweaks.ProgressBar(
             text="进度条丨Progress Bar"
         ),
         title.MainTitle(
             [
                 {
-                    "text": "LEVEL5 -judgelight-",
+                    "text": "Without You",
                     "color": "blue"
                 }
             ], {
-                "text": "宁以为是什么？（）"
+                "text": "AVICII Forever"
             }
         ),
         tweaks.Viewport(

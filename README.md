@@ -1,4 +1,4 @@
-# 这就是redstone-musician。
+# 这就是Redstone Musician。
 一个用来一键生成红石音乐的Python库。
 
 ## 开始
@@ -52,7 +52,7 @@
     + CopyTitle：贯穿音乐的标题，用于做视频。
 + `tweaks.py`
     + Viewport：一般的固定/初始视角，用于做视频。
-    + PigPort：骑猪的固定/初始时间，用于做视频。
+    + PigPort：骑猪的固定/初始角，用于做视频。
     + ProgressBar：显示乐曲的进度。用于做视频。
     + FixedTime：在播放音乐时保持时间不变动。
     + FixedRain：在播放音乐时保证不下雨/打雷。
@@ -64,4 +64,4 @@
 *\[ 尚未完工 \]*
 
 ## 授权
-MCDI 是由kworker(FrankYang6921)制作，遵从GPLv3协议的自由软件。本软件没有担保。你可以前往红石音乐俱乐部或Minecraft视听俱乐部（591318869或1129026982）或加作者QQ（3450123872）以获取帮助。
+Redstone Musician是由kworker(FrankYang6921)制作，遵从GPLv3协议的自由软件。本软件没有担保。你可以前往红石音乐俱乐部或Minecraft视听俱乐部（591318869或1129026982）或加作者QQ（3450123872）以获取帮助。
